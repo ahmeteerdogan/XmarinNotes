@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                     xmlns:local="clr-namespace:NavigateXamarin.MasterDetailPages"
+             x:Class="NavigateXamarin.MasterDetailPageSample">
+
+    <MasterDetailPage.Master>
+
+        <local:MPage1 BackgroundColor="Pink" Title="MasterPage"/>
+        
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <local:MPage2 BackgroundColor="Orange" Title="DetailPage"/>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

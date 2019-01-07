@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:local="clr-namespace:NavigateXamarin.CarouselPages"
+             x:Class="NavigateXamarin.CarouselSamplePage">
+
+
+    <local:cPage1>
+
+    </local:cPage1>
+    <local:cPage2>
+
+    </local:cPage2>
+    <local:cPage3>
+
+    </local:cPage3>
+</CarouselPage>
